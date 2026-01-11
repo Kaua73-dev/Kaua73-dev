@@ -23,7 +23,7 @@ Sou desenvolvedor Backend com foco em Java, possuo experiência com a família S
   <img src="https://readmestats.999857.xyz/api/top-langs/?username=Kaua73-dev&layout=compact&theme=dark" width="350" />
 </p>
 
-## 🗄️ DataBases já trabalhado
+## 🗄️ DataBases já trabalhados
 
 | Tecnologia | Tipo | Nível |
 |-----------|-------|--------|
