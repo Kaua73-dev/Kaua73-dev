@@ -30,7 +30,7 @@ public class KauaDeveloper {
     };
 
     private final String currentFocus =
-        "Building a softwares always";
+        "Always developing software";
 
     public static void main(String[] args) {
         System.out.println("Just code It!");
