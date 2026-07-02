@@ -1,52 +1,90 @@
-<p align="center">
-  💻 <strong> Software Engineer</strong> • ☕ <strong>Java & Spring FrameWork </strong> • 🗄️ <strong>MySQL</strong> • 🔗 <strong>REST APIs</strong> • 🐙 <strong>Git</strong> • 🐳 <strong>Docker</strong>
-</p>
+<div align="center">
 
-## 🎓 Sobre mim
-<p align="justify">
-Sou desenvolvedor Backend com foco em Java, possuo experiência com a família Spring no desenvolvimento de aplicações. Atualmente participo de projetos como freelancer, utilizando bancos de dados SQL e NoSQL, além de realizar controle de versionamento de código com Git.
-</p>
+# 👨‍💻 Kauã Santana Jerônimo
 
-## ☕ Skills & Technologies
-<p align="center">
-  <a href="#"><img src="https://skillicons.dev/icons?i=java&theme=light" height="70"/></a>
-  <a href="#"><img src="https://skillicons.dev/icons?i=spring&theme=light" height="70"/></a>
-  <a href="#"><img src="https://skillicons.dev/icons?i=git&theme=light" height="70"/></a>
-  <a href="#"><img src="https://skillicons.dev/icons?i=typescript&theme=light" height="70"/></a>
-  <a href="#"><img src="https://skillicons.dev/icons?i=prisma&theme=light" height="70"/></a>
-</p>
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=28&duration=2500&pause=1000&color=3B82F6&center=true&vCenter=true&width=800&lines=Backend+Developer+☕;Java+%7C+Spring+Framework;Microservices+Architecture;REST+APIs+%7C+Docker+%7C+Git;Design+Patterns+%7C+SQL+%26+NoSQL;Always+building+and+learning+🚀">
+
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=Kaua73-dev&style=for-the-badge&color=blue" />
+
+<img src="https://img.shields.io/github/followers/Kaua73-dev?style=for-the-badge&logo=github"/>
+
+<img src="https://img.shields.io/github/stars/Kaua73-dev?style=for-the-badge&logo=github"/>
+
+</div>
+
+<br>
+
+## About me
+
+```java
+public class KauaDeveloper {
+
+    private final String role = "Backend Developer";
+
+    private final String[] stack = {
+        "Java", "Spring Boot", "Microservices",
+        "REST APIs", "Docker", "Git",
+        "SQL", "NoSQL", "Design Patterns"
+    };
+
+    private final String currentFocus =
+        "Building a softwares always";
+
+    public static void main(String[] args) {
+        System.out.println("Just code It!");
+    }
+}
+```
+
+💻 Desenvolvedor Backend especializado em **Java** e no ecossistema **Spring**.
+
+-  Experiência com **Spring Boot**, arquitetura de **microsserviços**, APIs REST e aplicações escaláveis.
+-  Trabalho com bancos relacionais e não relacionais (**SQL / NoSQL**).
+-  Aplico boas práticas de desenvolvimento, versionamento e **padrões de projeto (Design Patterns)**.
+-  Sempre estudando novas tecnologias e evoluindo continuamente.
+
+<br>
+
+## Tech Stack
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=java,spring,mysql,mongodb,postgresql,docker,git,github,idea,vscode&perline=5" />
+
+</div>
+
+<br>
+
+<br>
+
+<br>
+
+## Contribution Graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Kaua73-dev&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=3B82F6&line=3B82F6&point=ffffff" width="100%" />
+
+</div>
+
+<br>
 
 
-## 📈 Performance (GitHub Stats)
-<p align="center">
-  <img src="https://readmestats.999857.xyz/api?username=Kaua73-dev&show_icons=true&theme=dark" width="450" />
-  <img src="https://readmestats.999857.xyz/api/top-langs/?username=Kaua73-dev&layout=compact&theme=dark" width="350" />
-</p>
+<div align="center">
 
-## 🗄️ DataBases já trabalhados
+<a href="https://www.linkedin.com/in/kau%C3%A3-santana-jer%C3%B4nimo-611a1a292/">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+<a href="mailto:kaua.santanaj@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
 
-| Tecnologia | Tipo | Nível |
-|-----------|-------|--------|
-| <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" /> | Banco de Dados | 🟦 Intermediário |
-| <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" /> | Banco de Dados | 🟦 Intermediário |
-| <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" /> | Banco de Dados | 🟦 Intermediário |
-| <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" /> | Banco de Dados | 🟦 Intermediário |
+</div>
 
+<br>
 
+<div align="center">
 
-
-## 📫 Let's Connect!
-<table align="center" border="0" cellspacing="0" cellpadding="6">
-  <tr>
-    <td align="center" style="border: none;">
-  <a href="https://www.linkedin.com/in/kau%C3%A3-santana-jer%C3%B4nimo-611a1a292/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-</td>
-    <td align="center" style="border: none;">
-      <a href="mailto:kaua.santanaj@gmail.com">
-        <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-      </a>
-    </td>
-  </tr>
-</table>
+</div>
