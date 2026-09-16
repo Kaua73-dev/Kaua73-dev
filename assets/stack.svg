@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 368" width="720" height="368" role="img" aria-label="Stack t&#233;cnica">
+  <title>Stack t&#233;cnica</title>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#121A25"/>
+      <stop offset="100%" stop-color="#0D131C"/>
+    </linearGradient>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#38D2FF" stop-opacity=".75"/>
+      <stop offset="100%" stop-color="#38D2FF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="g2" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#233246" stroke-opacity=".5" stroke-width="1"/>
+    </pattern>
+    <clipPath id="fr"><rect width="900" height="460" rx="16"/></clipPath>
+  </defs>
+
+  <style>
+    @keyframes tick  { from { opacity: 0 } to { opacity: 1 } }
+    @keyframes blink { 0%,46% { opacity: 1 } 54%,100% { opacity: .25 } }
+    .row { animation: tick .5s ease-out both; }
+    .dot { animation: blink 2.4s steps(1,end) infinite; }
+    @media (prefers-reduced-motion: reduce) { .row,.dot { animation: none; } }
+  </style>
+
+  <g clip-path="url(#fr)" transform="scale(0.8)">
+    <rect width="900" height="460" fill="url(#panel)"/>
+    <rect width="900" height="460" fill="url(#g2)" opacity=".5"/>
+
+    <text x="48" y="54" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="17.5" font-weight="700" letter-spacing="3.2" fill="#38D2FF">STACK</text>
+    <circle class="dot" cx="704" cy="49" r="3.5" fill="#4FE3B0"/>
+    <text x="718" y="54" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15.0" letter-spacing="1.6" fill="#4FE3B0">EM USO DI&#193;RIO</text>
+    <rect x="48" y="72" width="804" height="1.4" fill="url(#hdr)"/>
+
+    <g class="row" style="animation-delay:0.00s">
+      <text x="48" y="112" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15.62" letter-spacing="1.5" fill="#7FA8BF">LINGUAGEM</text>
+      <text x="268" y="112" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16.25" letter-spacing=".3" fill="#E6EDF3">Java 17 &#183; records, streams, concorr&#234;ncia</text>
+      <rect x="48" y="128" width="804" height="1" fill="#233246"/>
+    </g>
+    <g class="row" style="animation-delay:0.07s">
+      <text x="48" y="158" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15.62" letter-spacing="1.5" fill="#7FA8BF">FRAMEWORK</text>
+      <text x="268" y="158" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16.25" letter-spacing=".3" fill="#E6EDF3">Spring Boot &#183; Data JPA &#183; Security &#183; Validation</text>
+      <rect x="48" y="174" width="804" height="1" fill="#233246"/>
+    </g>
+    <g class="row" style="animation-delay:0.14s">
+      <text x="48" y="204" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15.62" letter-spacing="1.5" fill="#7FA8BF">ARQUITETURA</text>
+      <text x="268" y="204" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16.25" letter-spacing=".3" fill="#E6EDF3">DDD &#183; microsservi&#231;os &#183; hexagonal &#183; REST</text>
+      <rect x="48" y="220" width="804" height="1" fill="#233246"/>
+    </g>
+    <g class="row" style="animation-delay:0.21s">
+      <text x="48" y="250" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15.62" letter-spacing="1.5" fill="#7FA8BF">TESTES</text>
+      <text x="268" y="250" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16.25" letter-spacing=".3" fill="#E6EDF3">TDD &#183; JUnit 5 &#183; Mockito &#183; Testcontainers</text>
+      <rect x="48" y="266" width="804" height="1" fill="#233246"/>
+    </g>
+    <g class="row" style="animation-delay:0.28s">
+      <text x="48" y="296" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15.62" letter-spacing="1.5" fill="#7FA8BF">PERSIST&#202;NCIA</text>
+      <text x="268" y="296" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16.25" letter-spacing=".3" fill="#E6EDF3">PostgreSQL &#183; MySQL &#183; MongoDB &#183; Redis</text>
+      <rect x="48" y="312" width="804" height="1" fill="#233246"/>
+    </g>
+    <g class="row" style="animation-delay:0.35s">
+      <text x="48" y="342" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15.62" letter-spacing="1.5" fill="#7FA8BF">INFRA</text>
+      <text x="268" y="342" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16.25" letter-spacing=".3" fill="#E6EDF3">Docker &#183; Git &#183; CI/CD &#183; Linux</text>
+      <rect x="48" y="358" width="804" height="1" fill="#233246"/>
+    </g>
+    <g class="row" style="animation-delay:0.42s">
+      <text x="48" y="388" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15.62" letter-spacing="1.5" fill="#7FA8BF">TAMB&#201;M USO</text>
+      <text x="268" y="388" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16.25" letter-spacing=".3" fill="#E6EDF3">Node.js &#183; Express &#183; Maven &#183; Hibernate</text>
+      <rect x="48" y="404" width="804" height="1" fill="#233246"/>
+    </g>
+
+    <rect x="1" y="1" width="898" height="458" rx="16" fill="none" stroke="#233246" stroke-width="2"/>
+  </g>
+</svg>

@@ -4,150 +4,109 @@
 
 <br><br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2600&pause=700&color=FFB300&center=true&vCenter=true&width=820&height=60&lines=Good+morning%2C+sir.;Inicializando+Mark+LXXXV...;Reator+arc%3A+100%25;Backend+Developer+%2F%2F+Java+Division;Spring+Boot+%7C+Microsservi%C3%A7os+%7C+Docker;I+am+Iron+Man." alt="JARVIS" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=800&color=38D2FF&center=true&vCenter=true&width=820&height=44&lines=Backend+Developer+%2F%2F+Java;Spring+Boot+%C2%B7+Microsservi%C3%A7os+%C2%B7+Docker;TDD%2C+DDD+e+Clean+Code+como+padr%C3%A3o%2C+n%C3%A3o+como+enfeite;Sistemas+que+n%C3%A3o+caem+%C3%A0s+tr%C3%AAs+da+manh%C3%A3" alt="Backend Developer // Java — Spring Boot, microsserviços, Docker. TDD, DDD e Clean Code como padrão, não como enfeite. Sistemas que não caem às três da manhã." />
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=Kaua73-dev&style=for-the-badge&color=FFB300&label=SCANS" alt="views" />
-<img src="https://img.shields.io/github/followers/Kaua73-dev?style=for-the-badge&logo=github&label=ALIADOS&color=B01E28&labelColor=0D1117" alt="followers" />
-<img src="https://img.shields.io/github/stars/Kaua73-dev?style=for-the-badge&logo=github&label=REATORES&color=FFB300&labelColor=0D1117" alt="stars" />
+<img src="https://komarev.com/ghpvc/?username=Kaua73-dev&style=for-the-badge&color=38D2FF&labelColor=111823&label=VISITAS" alt="Visitas no perfil" />
+<img src="https://img.shields.io/github/followers/Kaua73-dev?style=for-the-badge&logo=github&label=SEGUIDORES&color=1B6F9E&labelColor=111823" alt="Seguidores" />
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" />
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-## `01` Boot sequence
+## `01` Inicialização
 
 ```java
-package com.stark.industries.backend;
+package dev.kaua.core.domain;
 
-import com.stark.jarvis.annotation.EnableJarvis;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+/**
+ * A regra de negócio não conhece framework, banco nem HTTP.
+ * Se precisa de mock para ser testada, foi modelada errado.
+ */
+public record Desenvolvedor(String nome, Nivel nivel, Set<Competencia> stack) {
 
-@EnableJarvis
-@SpringBootApplication
-public class MarkLXXXVApplication {
+    public Desenvolvedor {
+        Objects.requireNonNull(nome, "nome é obrigatório");
+        stack = Set.copyOf(stack);
+    }
 
-    private static final String OPERADOR = "Kauã Santana Jerônimo";
-    private static final String CARGO    = "Backend Developer";
-    private static final int    REATOR   = 100; // %
+    public boolean atende(Demanda demanda) {
+        return stack.containsAll(demanda.requisitos());
+    }
 
-    private final List<String> armadura = List.of(
-        "Java", "Spring Boot", "Microsserviços",
-        "REST APIs", "Docker", "Git",
-        "SQL", "NoSQL", "Design Patterns"
-    );
-
-    public static void main(String[] args) {
-        SpringApplication.run(MarkLXXXVApplication.class, args);
-
-        System.out.println("Sometimes you gotta run before you can walk.");
-        System.out.println(">> I am Iron Man.");
+    public Desenvolvedor aprende(Competencia nova) {
+        var ampliada = new HashSet<>(stack);
+        ampliada.add(nova);
+        return new Desenvolvedor(nome, nivel, ampliada);
     }
 }
 ```
 
-> **JARVIS:** *Compilação concluída em 0.42s, senhor. Nenhum `NullPointerException` detectado — por enquanto.*
+Backend em **Java** e ecossistema **Spring**. Meu trabalho é fazer sistema que continua de pé depois que o tráfego chega.
 
-<br>
+- **Microsserviços** e **APIs REST** — contrato claro, falha isolada, deploy independente
+- **TDD** — teste primeiro, e a suíte roda antes de eu abrir o PR
+- **DDD** — domínio no centro, regra de negócio longe do controller
+- **Clean Code** e **Design Patterns** — código que o próximo dev entende sem me chamar
+- **SQL e NoSQL** — modelagem, índice e query que não degrada quando a tabela cresce
+- **Docker** e **Git** — ambiente reproduzível, histórico legível
+- **Node.js** quando o problema pede, sem trocar de religião por isso
 
-Desenvolvedor **backend** movido a **Java** e ao ecossistema **Spring**. Construo APIs que aguentam porrada.
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-- Arquitetura de **microsserviços**, **Spring Boot** e aplicações escaláveis
-- Bancos **relacionais e não relacionais** — modelagem, query e performance
-- **Design Patterns**, código limpo e versionamento levado a sério
-- Containerização com **Docker** e rotina de estudo que nunca desliga
-
-<img src="./assets/divider.svg" width="100%" />
-
-## `02` Armor loadout
+## `02` Stack
 
 <div align="center">
 
-<img src="./assets/armor-systems.svg" alt="Diagnóstico da armadura" width="100%" />
+<img src="./assets/stack.svg" alt="Stack técnica" width="100%" />
 
 <br><br>
 
-<img src="https://skillicons.dev/icons?i=java,spring,maven,hibernate,mysql,postgresql,mongodb,docker,git,github,postman,idea&theme=dark&perline=6" alt="stack" />
+<img src="https://skillicons.dev/icons?i=java,spring,maven,hibernate,nodejs,express,postgres,mysql,mongodb,redis,docker,git,github,linux,postman,idea&theme=dark&perline=8" alt="Ferramentas" />
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" />
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-## `03` Suit diagnostics
+## `03` Telemetria
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Kaua73-dev&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=FFB300&icon_color=E62429&text_color=C9D6E4&ring_color=FFB300" alt="stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kaua73-dev&layout=compact&hide_border=true&langs_count=8&bg_color=0D1117&title_color=FFB300&text_color=C9D6E4" alt="langs" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Kaua73-dev&theme=github_dark" alt="Linguagens por repositório" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Kaua73-dev&theme=github_dark" alt="Linguagens por commit" />
 
 <br>
 
-<img height="165" src="https://streak-stats.demolab.com?user=Kaua73-dev&hide_border=true&background=0D1117&border=0D1117&ring=FFB300&fire=E62429&currStreakLabel=FFB300&sideLabels=C9D6E4&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=6E8299" alt="streak" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Kaua73-dev&theme=github_dark" alt="Estatísticas gerais" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Kaua73-dev&theme=github_dark&utcOffset=-3" alt="Horários de commit" />
 
 <br><br>
 
-<img src="https://github-profile-trophy.vercel.app/?username=Kaua73-dev&theme=onedark&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=7" alt="trophies" />
+<img src="https://streak-stats.demolab.com?user=Kaua73-dev&hide_border=true&background=111823&border=233246&stroke=233246&ring=38D2FF&fire=38D2FF&currStreakNum=E6EDF3&currStreakLabel=38D2FF&sideNums=E6EDF3&sideLabels=8FA3B8&dates=5E7285" alt="Sequência de commits" />
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" />
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-## `04` Arc reactor output
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Kaua73-dev&bg_color=0D1117&color=FFB300&line=E62429&point=FFFFFF&area=true&area_color=E62429&hide_border=true&custom_title=Energia%20liberada%20nos%20ultimos%2031%20dias" width="100%" alt="activity" />
-
-</div>
-
-<img src="./assets/divider.svg" width="100%" />
-
-## `05` Estabelecer comunicação
+## `04` Canal aberto
 
 <div align="center">
 
 <a href="https://www.linkedin.com/in/kau%C3%A3-santana-jer%C3%B4nimo-611a1a292/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <img src="https://img.shields.io/badge/LinkedIn-111823?style=for-the-badge&logo=linkedin&logoColor=38D2FF" alt="LinkedIn" />
 </a>
 <a href="mailto:kaua.santanaj@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-B01E28?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  <img src="https://img.shields.io/badge/Email-111823?style=for-the-badge&logo=gmail&logoColor=38D2FF" alt="Email" />
 </a>
 <a href="https://github.com/Kaua73-dev">
-  <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=FFB300" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GitHub-111823?style=for-the-badge&logo=github&logoColor=38D2FF" alt="GitHub" />
 </a>
 
-</div>
+<br><br>
 
-<br>
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-<details>
-<summary><b>🔒 Protocolo Casa Segura — abrir por sua conta e risco</b></summary>
-
-<br>
-
-```java
-try {
-    deploy(sexta, 18, 00);
-} catch (ProductionOnFireException e) {
-    jarvis.acionarProtocoloCasaSegura();
-    log.error("Eu avisei.", e);
-} finally {
-    git.revert(HEAD);
-}
-```
-
-*"Às vezes você tem que correr antes de aprender a andar."* — e às vezes você tem que fazer rollback antes de aprender a testar.
-
-</details>
-
-<br>
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:B01E28,50:E62429,100:FFB300&height=110&section=footer" width="100%" alt="footer" />
-
-<sub><b>Java não é só linguagem. É armadura.</b></sub>
+<sub>Aberto a oportunidades e a código que sobrevive ao próximo sprint.</sub>
 
 </div>

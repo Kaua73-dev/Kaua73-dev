@@ -1,156 +1,311 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="1000" height="320" role="img" aria-label="Kaua Santana Jeronimo - Backend Developer" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo1MWYwZmVhMC1mYzYzLTRmZTgtYjNiNi01NmFkNDY5NDQwYTQAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaL0fRBmzyKNHniBj6C7iaf8AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDozZmUyNDRkMy02NDE2LTQzY2QtOGU5My01MzJiNWU0NDM0YmZscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoBtsj+HnxmNlmuxSMimN5yAAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggew/HBB7IBRE7LENoGebRwYJWpZDdijCgiWc+4Ru9pq2kZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaNW76NQJCi4BO2RzJXcRFkoAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCBtFWbinIz/dYL0v2MWLca1Ie+QpjhFrdewtb0avqwgWmRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjaZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjUxZjBmZWEwLWZjNjMtNGZlOC1iM2I2LTU2YWQ0Njk0NDBhNC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjZkM2MxOGVhLWM5MjctNGFhOS05ZmMzLTE4NjU4ZGNjMjRiYnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCB7D8cEHsgFETssQ2gZ5tHBglalkN2KMKCJZz7hG72mraJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggiwLIsvTp5RHyOhxr8W3YESU5hb31ro09+Rx7CLoxGSmiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggtQq7dqpol3/ndjTk0twQfzZCgbHq0geod662wuEUplZ0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQP2AvdMUBt60t2L9ozh2FpiRL6nfUkC69YP9CvRtgSoeNT9ohsHkPFpC1G4a1cq+aNXz3zl6qHib087RQdMbqAk=</c2pa:manifest></metadata>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 256" width="800" height="256" role="img" aria-label="Kau&#227; Santana Jer&#244;nimo &#8212; Backend Developer, Java e Spring">
+  <title>Kau&#227; Santana Jer&#244;nimo &#8212; Backend Developer</title>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#090C11"/>
-      <stop offset="55%" stop-color="#10141B"/>
-      <stop offset="100%" stop-color="#1B0E10"/>
+    <linearGradient id="field" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0E141D"/>
+      <stop offset="55%" stop-color="#111823"/>
+      <stop offset="100%" stop-color="#0A0F17"/>
     </linearGradient>
-    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#9DEBFF" stop-opacity=".55"/>
-      <stop offset="45%" stop-color="#2FB8E8" stop-opacity=".22"/>
-      <stop offset="100%" stop-color="#2FB8E8" stop-opacity="0"/>
+
+    <radialGradient id="glowA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#9FF4FF" stop-opacity=".55"/>
+      <stop offset="18%"  stop-color="#6FE4FF" stop-opacity=".38"/>
+      <stop offset="38%"  stop-color="#3FCDF0" stop-opacity=".20"/>
+      <stop offset="60%"  stop-color="#2AA8CC" stop-opacity=".09"/>
+      <stop offset="80%"  stop-color="#1A7C9C" stop-opacity=".035"/>
+      <stop offset="100%" stop-color="#0E5570" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="core" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="32%" stop-color="#D6F7FF"/>
-      <stop offset="72%" stop-color="#3FD0FF"/>
-      <stop offset="100%" stop-color="#0B6F9E"/>
+    <radialGradient id="glowB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#5FE0FA" stop-opacity=".28"/>
+      <stop offset="25%"  stop-color="#3CC4E6" stop-opacity=".16"/>
+      <stop offset="50%"  stop-color="#219FC4" stop-opacity=".075"/>
+      <stop offset="75%"  stop-color="#14708E" stop-opacity=".028"/>
+      <stop offset="100%" stop-color="#0A4A62" stop-opacity="0"/>
     </radialGradient>
+    <radialGradient id="glowC" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#2FB8D8" stop-opacity=".16"/>
+      <stop offset="30%"  stop-color="#2098BC" stop-opacity=".085"/>
+      <stop offset="60%"  stop-color="#14708E" stop-opacity=".035"/>
+      <stop offset="85%"  stop-color="#0C4E68" stop-opacity=".012"/>
+      <stop offset="100%" stop-color="#06303F" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="coreBody" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="30">
+      <stop offset="0%"   stop-color="#E8FEFF"/>
+      <stop offset="22%"  stop-color="#A8F4FF"/>
+      <stop offset="42%"  stop-color="#5FE0FA"/>
+      <stop offset="66%"  stop-color="#22B8E0"/>
+      <stop offset="86%"  stop-color="#0E7FA6"/>
+      <stop offset="100%" stop-color="#0A5570"/>
+    </radialGradient>
+    <radialGradient id="coreHot" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="9">
+      <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="35%"  stop-color="#FFFFFF" stop-opacity=".95"/>
+      <stop offset="62%"  stop-color="#DFFBFF" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#BFF2FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="coreVignette" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="30">
+      <stop offset="0%"   stop-color="#000000" stop-opacity="0"/>
+      <stop offset="72%"  stop-color="#000000" stop-opacity="0"/>
+      <stop offset="92%"  stop-color="#001018" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#001824" stop-opacity=".62"/>
+    </radialGradient>
+    <radialGradient id="caustic" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="coilGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#1B2A34"/>
+      <stop offset="45%"  stop-color="#2D4351"/>
+      <stop offset="70%"  stop-color="#3E5C6E"/>
+      <stop offset="100%" stop-color="#17242C"/>
+    </linearGradient>
+    <linearGradient id="triGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#BFF6FF"/>
+      <stop offset="100%" stop-color="#2FB8D8"/>
+    </linearGradient>
     <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#B01E28"/>
-      <stop offset="45%" stop-color="#E62429"/>
-      <stop offset="80%" stop-color="#FFB300"/>
-      <stop offset="100%" stop-color="#FFB300" stop-opacity="0"/>
+      <stop offset="0%"   stop-color="#38D2FF"/>
+      <stop offset="55%"  stop-color="#1B6F9E"/>
+      <stop offset="100%" stop-color="#1B6F9E" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FFB300" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#FFD98A" stop-opacity=".30"/>
-      <stop offset="100%" stop-color="#FFB300" stop-opacity="0"/>
+    <linearGradient id="scanline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#38D2FF" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#7FE9FF" stop-opacity=".07"/>
+      <stop offset="100%" stop-color="#38D2FF" stop-opacity="0"/>
     </linearGradient>
-    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
-      <path d="M26 0H0V26" fill="none" stroke="#FFB300" stroke-opacity=".055" stroke-width="1"/>
+
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#233246" stroke-opacity=".5" stroke-width="1"/>
     </pattern>
-    <filter id="glow" x="-70%" y="-70%" width="240%" height="240%">
-      <feGaussianBlur stdDeviation="7"/>
-    </filter>
-    <filter id="glowS" x="-70%" y="-70%" width="240%" height="240%">
-      <feGaussianBlur stdDeviation="2.4"/>
-    </filter>
-    <clipPath id="frame"><rect x="0" y="0" width="1000" height="320" rx="16"/></clipPath>
+    <clipPath id="frame"><rect width="1000" height="320" rx="16"/></clipPath>
   </defs>
-
   <style>
-    @keyframes spin      { from { transform: rotate(0deg);   } to { transform: rotate(360deg);  } }
-    @keyframes spinRev   { from { transform: rotate(0deg);   } to { transform: rotate(-360deg); } }
-    @keyframes breathe   { 0%,100% { opacity:.62; transform: scale(.94); } 50% { opacity:1; transform: scale(1.06); } }
-    @keyframes haloPulse { 0%,100% { opacity:.55; transform: scale(.97); } 50% { opacity:.95; transform: scale(1.05); } }
-    @keyframes sweepX    { 0% { transform: translateX(-260px); } 100% { transform: translateX(1060px); } }
-    @keyframes blink     { 0%,46% { opacity:1; } 54%,100% { opacity:.18; } }
-    @keyframes charge    { 0%,100% { opacity:.28; } 50% { opacity:.95; } }
-    @keyframes rise      { from { opacity:0; transform: translateY(14px); } to { opacity:1; transform: translateY(0); } }
-    @keyframes widen     { from { transform: scaleX(0); } to { transform: scaleX(1); } }
-    @keyframes bracket   { from { opacity:0; } to { opacity:.85; } }
+    /* transform-box/-origin are required: SVG rotates about the canvas origin,
+       not the element centre. Without these the reactor orbits instead of spinning. */
+    .reactor,.hud,.tickring,.ring46,.nucleus,.h1,.h2,.h3,.h1b,.triglow {
+      transform-box: fill-box; transform-origin: center;
+    }
+    /* .cseg is deliberately excluded: its rotate() presentation attributes must
+       resolve about the reactor axis (0,0), not each segment's own bbox centre. */
+    @keyframes rot      { to { transform: rotate(360deg); } }
+    @keyframes rotRev   { to { transform: rotate(-360deg); } }
+    @keyframes breathe  { 0%,100% { transform: scale(1); opacity:.92 } 50% { transform: scale(1.06); opacity:1 } }
+    @keyframes haloA    { 0%,100% { opacity:.85 } 50% { opacity:1 } }
+    @keyframes haloB    { 0%,100% { opacity:.75 } 50% { opacity:1 } }
+    @keyframes segPulse { 0%,100% { opacity:.75 } 50% { opacity:1 } }
+    @keyframes triPulse { 0%,100% { opacity:.12 } 50% { opacity:.24 } }
+    @keyframes scanX    { 0% { transform: translateX(-320px) } 100% { transform: translateX(1080px) } }
+    @keyframes rise     { from { opacity:0; transform: translateY(12px) } to { opacity:1; transform: translateY(0) } }
+    @keyframes widen    { from { transform: scaleX(0) } to { transform: scaleX(1) } }
+    @keyframes blink    { 0%,46% { opacity:1 } 54%,100% { opacity:.25 } }
 
-    .spinA   { animation: spin 22s linear infinite; }
-    .spinB   { animation: spinRev 14s linear infinite; }
-    .spinC   { animation: spin 9s linear infinite; }
-    .coreA   { animation: breathe 2.6s ease-in-out infinite; }
-    .haloA   { animation: haloPulse 2.6s ease-in-out infinite; }
-    .sweepA  { animation: sweepX 7.5s linear infinite; }
-    .dot     { animation: blink 1.7s steps(1,end) infinite; }
-    .coil    { animation: charge 2.2s ease-in-out infinite; }
-    .r1      { animation: rise .7s ease-out .15s both; }
-    .r2      { animation: rise .7s ease-out .35s both; }
-    .r3      { animation: rise .7s ease-out .55s both; }
-    .r4      { animation: rise .7s ease-out .8s both; }
-    .grow    { animation: widen .9s cubic-bezier(.2,.8,.2,1) .5s both; }
-    .brk     { animation: bracket .6s ease-out 1s both; }
+    .hud      { animation: rot 120s linear infinite; }
+    .tickring { animation: rotRev 200s linear infinite; }
+    .ring46   { animation: rot 90s linear infinite; }
+    .nucleus  { animation: breathe 4.2s cubic-bezier(.45,0,.55,1) infinite; }
+    .h2       { animation: haloA 4.2s ease-in-out -.35s infinite; }
+    .h3       { animation: haloB 8.4s ease-in-out infinite; }
+    .h1b      { animation: haloA 4.2s ease-in-out -.35s infinite; }
+    .cseg     { animation: segPulse 4.2s ease-in-out infinite; }
+    .triglow  { animation: triPulse 6.3s ease-in-out infinite; }
+    .scan     { animation: scanX 9s linear infinite; }
+    .dot      { animation: blink 2.4s steps(1,end) infinite; }
+    .r1 { animation: rise .7s ease-out .10s both; }
+    .r2 { animation: rise .7s ease-out .26s both; }
+    .r3 { animation: rise .7s ease-out .42s both; }
+    .r4 { animation: rise .7s ease-out .58s both; }
+    .grow { animation: widen .9s cubic-bezier(.2,.8,.2,1) .5s both;
+            transform-box: fill-box; transform-origin: left center; }
 
+    /* The still frame is the mid-pulse state, so the reduced-motion version
+       is the best-looking one rather than a dimmed accident. */
     @media (prefers-reduced-motion: reduce) {
-      .spinA,.spinB,.spinC,.coreA,.haloA,.sweepA,.dot,.coil { animation: none; }
+      .hud,.tickring,.ring46,.nucleus,.h2,.h3,.h1b,.cseg,.triglow,.scan,.dot,
+      .r1,.r2,.r3,.r4,.grow { animation: none; }
+      .triglow { opacity:.24 }
     }
   </style>
+  <g clip-path="url(#frame)" transform="scale(.8)">
+    <rect width="1000" height="320" fill="url(#field)"/>
+    <rect width="1000" height="320" fill="url(#grid)" opacity=".5"/>
+    <rect class="scan" width="300" height="320" fill="url(#scanline)"/>
 
-  <g clip-path="url(#frame)">
-    <rect width="1000" height="320" fill="url(#bg)"/>
-    <rect width="1000" height="320" fill="url(#grid)"/>
-    <rect class="sweepA" x="0" y="0" width="240" height="320" fill="url(#sweep)"/>
+    <g transform="translate(178,160) scale(1.12)">
+      <g class="reactor">
+        <!-- halo: pure-gradient bloom, no filter (deterministic across renderers) -->
+        <circle class="h3" r="118" fill="url(#glowC)"/>
+        <circle class="h2" r="86" fill="url(#glowB)"/>
+        <circle class="h1" r="48" fill="url(#glowA)"/>
 
-    <!-- ================= ARC REACTOR ================= -->
-    <g transform="translate(168,160)">
-      <circle class="haloA" r="118" fill="url(#halo)"/>
+        <!-- housing -->
+        <circle r="80" fill="#081016"/>
+        <circle r="100" fill="none" stroke="#3A4652" stroke-width="1.5"/>
+        <path d="M -69.296 69.296 A 98 98 0 0 1 69.296 -69.296" fill="none" stroke="#6C8494" stroke-opacity=".55" stroke-width="3"/>
+        <path d="M 69.296 -69.296 A 98 98 0 0 1 -69.296 69.296" fill="none" stroke="#17222B" stroke-width="3"/>
+        <path d="M 89.101 45.399 A 100 100 0 0 1 83.867 54.464 L 80.512 52.285 A 96 96 0 0 0 85.537 43.583 Z" fill="#0F1A22"/>
+        <circle cx="84.87" cy="49" r="1.2" fill="#55707E"/>
+        <path d="M 5.234 99.863 A 100 100 0 0 1 -5.234 99.863 L -5.024 95.868 A 96 96 0 0 0 5.024 95.868 Z" fill="#0F1A22"/>
+        <circle cx="0" cy="98" r="1.2" fill="#55707E"/>
+        <path d="M -83.867 54.464 A 100 100 0 0 1 -89.101 45.399 L -85.537 43.583 A 96 96 0 0 0 -80.512 52.285 Z" fill="#0F1A22"/>
+        <circle cx="-84.87" cy="49" r="1.2" fill="#55707E"/>
+        <path d="M -89.101 -45.399 A 100 100 0 0 1 -83.867 -54.464 L -80.512 -52.285 A 96 96 0 0 0 -85.537 -43.583 Z" fill="#0F1A22"/>
+        <circle cx="-84.87" cy="-49" r="1.2" fill="#55707E"/>
+        <path d="M -5.234 -99.863 A 100 100 0 0 1 5.234 -99.863 L 5.024 -95.868 A 96 96 0 0 0 -5.024 -95.868 Z" fill="#0F1A22"/>
+        <circle cx="-0" cy="-98" r="1.2" fill="#55707E"/>
+        <path d="M 83.867 -54.464 A 100 100 0 0 1 89.101 -45.399 L 85.537 -43.583 A 96 96 0 0 0 80.512 -52.285 Z" fill="#0F1A22"/>
+        <circle cx="84.87" cy="-49" r="1.2" fill="#55707E"/>
+        <circle r="80" fill="none" stroke="#22303C" stroke-width="5"/>
+        <circle r="77.5" fill="none" stroke="#4E6272" stroke-opacity=".45" stroke-width="1"/>
 
-      <!-- anel externo pontilhado -->
-      <g class="spinA">
-        <circle r="98" fill="none" stroke="#FFB300" stroke-opacity=".38" stroke-width="1.4" stroke-dasharray="2 10" stroke-linecap="round"/>
+        <!-- coil ring (locked: bolted to the triangle vertices) -->
+        <path d="M 58.898 -11.449 L 70.481 -13.7 L 73.089 -11.576 A 74 74 0 0 1 73.089 11.576 L 70.481 13.7 L 58.898 11.449 A 60 60 0 0 0 58.898 -11.449 Z" fill="#2E6A7E" stroke="#0C1419" stroke-width=".8" transform="rotate(-90)" class="cseg" style="animation-delay:0s"/>
+        <path d="M 58.898 -11.449 L 70.481 -13.7 L 73.089 -11.576 A 74 74 0 0 1 73.089 11.576 L 70.481 13.7 L 58.898 11.449 A 60 60 0 0 0 58.898 -11.449 Z" fill="url(#coilGrad)" stroke="#0C1419" stroke-width=".8" transform="rotate(-60)"/>
+        <path d="M 58.898 -11.449 L 70.481 -13.7 L 73.089 -11.576 A 74 74 0 0 1 73.089 11.576 L 70.481 13.7 L 58.898 11.449 A 60 60 0 0 0 58.898 -11.449 Z" fill="url(#coilGrad)" stroke="#0C1419" stroke-width=".8" transform="rotate(-30)"/>
+        <path d="M 58.898 -11.449 L 70.481 -13.7 L 73.089 -11.576 A 74 74 0 0 1 73.089 11.576 L 70.481 13.7 L 58.898 11.449 A 60 60 0 0 0 58.898 -11.449 Z" fill="url(#coilGrad)" stroke="#0C1419" stroke-width=".8" transform="rotate(0)"/>
+        <path d="M 58.898 -11.449 L 70.481 -13.7 L 73.089 -11.576 A 74 74 0 0 1 73.089 11.576 L 70.481 13.7 L 58.898 11.449 A 60 60 0 0 0 58.898 -11.449 Z" fill="#2E6A7E" stroke="#0C1419" stroke-width=".8" transform="rotate(30)" class="cseg" style="animation-delay:-1.4s"/>
+        <path d="M 58.898 -11.449 L 70.481 -13.7 L 73.089 -11.576 A 74 74 0 0 1 73.089 11.576 L 70.481 13.7 L 58.898 11.449 A 60 60 0 0 0 58.898 -11.449 Z" fill="url(#coilGrad)" stroke="#0C1419" stroke-width=".8" transform="rotate(60)"/>
+        <path d="M 58.898 -11.449 L 70.481 -13.7 L 73.089 -11.576 A 74 74 0 0 1 73.089 11.576 L 70.481 13.7 L 58.898 11.449 A 60 60 0 0 0 58.898 -11.449 Z" fill="url(#coilGrad)" stroke="#0C1419" stroke-width=".8" transform="rotate(90)"/>
+        <path d="M 58.898 -11.449 L 70.481 -13.7 L 73.089 -11.576 A 74 74 0 0 1 73.089 11.576 L 70.481 13.7 L 58.898 11.449 A 60 60 0 0 0 58.898 -11.449 Z" fill="url(#coilGrad)" stroke="#0C1419" stroke-width=".8" transform="rotate(120)"/>
+        <path d="M 58.898 -11.449 L 70.481 -13.7 L 73.089 -11.576 A 74 74 0 0 1 73.089 11.576 L 70.481 13.7 L 58.898 11.449 A 60 60 0 0 0 58.898 -11.449 Z" fill="#2E6A7E" stroke="#0C1419" stroke-width=".8" transform="rotate(150)" class="cseg" style="animation-delay:-2.8s"/>
+        <path d="M 58.898 -11.449 L 70.481 -13.7 L 73.089 -11.576 A 74 74 0 0 1 73.089 11.576 L 70.481 13.7 L 58.898 11.449 A 60 60 0 0 0 58.898 -11.449 Z" fill="url(#coilGrad)" stroke="#0C1419" stroke-width=".8" transform="rotate(180)"/>
+        <path d="M 58.898 -11.449 L 70.481 -13.7 L 73.089 -11.576 A 74 74 0 0 1 73.089 11.576 L 70.481 13.7 L 58.898 11.449 A 60 60 0 0 0 58.898 -11.449 Z" fill="url(#coilGrad)" stroke="#0C1419" stroke-width=".8" transform="rotate(210)"/>
+        <path d="M 58.898 -11.449 L 70.481 -13.7 L 73.089 -11.576 A 74 74 0 0 1 73.089 11.576 L 70.481 13.7 L 58.898 11.449 A 60 60 0 0 0 58.898 -11.449 Z" fill="url(#coilGrad)" stroke="#0C1419" stroke-width=".8" transform="rotate(240)"/>
+
+        <!-- struts -->
+        <g transform="rotate(-90)"><path d="M 80 -4.5 L 80 4.5 L 57 2.6 L 57 -2.6 Z" fill="#2A3B47" stroke="#0C1419" stroke-width=".6"/><line x1="78" y1="0" x2="59" y2="0" stroke="#38D2FF" stroke-opacity=".25" stroke-width=".8"/></g>
+        <g transform="rotate(30)"><path d="M 80 -4.5 L 80 4.5 L 57 2.6 L 57 -2.6 Z" fill="#2A3B47" stroke="#0C1419" stroke-width=".6"/><line x1="78" y1="0" x2="59" y2="0" stroke="#38D2FF" stroke-opacity=".25" stroke-width=".8"/></g>
+        <g transform="rotate(150)"><path d="M 80 -4.5 L 80 4.5 L 57 2.6 L 57 -2.6 Z" fill="#2A3B47" stroke="#0C1419" stroke-width=".6"/><line x1="78" y1="0" x2="59" y2="0" stroke="#38D2FF" stroke-opacity=".25" stroke-width=".8"/></g>
+
+        <!-- ticks: counter-rotates, subliminal -->
+        <g class="tickring"><line y1="-87" y2="-75" stroke="#A9EEFF" stroke-opacity="0.85" stroke-width="1.8" transform="rotate(0)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(5)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(10)"/>
+        <line y1="-87" y2="-78.5" stroke="#7FA8BF" stroke-opacity="0.55" stroke-width="1.2" transform="rotate(15)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(20)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(25)"/>
+        <line y1="-87" y2="-78.5" stroke="#7FA8BF" stroke-opacity="0.55" stroke-width="1.2" transform="rotate(30)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(35)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(40)"/>
+        <line y1="-87" y2="-78.5" stroke="#7FA8BF" stroke-opacity="0.55" stroke-width="1.2" transform="rotate(45)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(50)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(55)"/>
+        <line y1="-87" y2="-78.5" stroke="#7FA8BF" stroke-opacity="0.55" stroke-width="1.2" transform="rotate(60)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(65)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(70)"/>
+        <line y1="-87" y2="-78.5" stroke="#7FA8BF" stroke-opacity="0.55" stroke-width="1.2" transform="rotate(75)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(80)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(85)"/>
+        <line y1="-87" y2="-75" stroke="#A9EEFF" stroke-opacity="0.85" stroke-width="1.8" transform="rotate(90)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(95)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(100)"/>
+        <line y1="-87" y2="-78.5" stroke="#7FA8BF" stroke-opacity="0.55" stroke-width="1.2" transform="rotate(105)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(110)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(115)"/>
+        <line y1="-87" y2="-78.5" stroke="#7FA8BF" stroke-opacity="0.55" stroke-width="1.2" transform="rotate(120)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(125)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(130)"/>
+        <line y1="-87" y2="-78.5" stroke="#7FA8BF" stroke-opacity="0.55" stroke-width="1.2" transform="rotate(135)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(140)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(145)"/>
+        <line y1="-87" y2="-78.5" stroke="#7FA8BF" stroke-opacity="0.55" stroke-width="1.2" transform="rotate(150)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(155)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(160)"/>
+        <line y1="-87" y2="-78.5" stroke="#7FA8BF" stroke-opacity="0.55" stroke-width="1.2" transform="rotate(165)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(170)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(175)"/>
+        <line y1="-87" y2="-75" stroke="#A9EEFF" stroke-opacity="0.85" stroke-width="1.8" transform="rotate(180)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(185)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(190)"/>
+        <line y1="-87" y2="-78.5" stroke="#7FA8BF" stroke-opacity="0.55" stroke-width="1.2" transform="rotate(195)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(200)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(205)"/>
+        <line y1="-87" y2="-78.5" stroke="#7FA8BF" stroke-opacity="0.55" stroke-width="1.2" transform="rotate(210)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(215)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(220)"/>
+        <line y1="-87" y2="-78.5" stroke="#7FA8BF" stroke-opacity="0.55" stroke-width="1.2" transform="rotate(225)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(230)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(235)"/>
+        <line y1="-87" y2="-78.5" stroke="#7FA8BF" stroke-opacity="0.55" stroke-width="1.2" transform="rotate(240)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(245)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(250)"/>
+        <line y1="-87" y2="-78.5" stroke="#7FA8BF" stroke-opacity="0.55" stroke-width="1.2" transform="rotate(255)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(260)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(265)"/>
+        <line y1="-87" y2="-75" stroke="#A9EEFF" stroke-opacity="0.85" stroke-width="1.8" transform="rotate(270)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(275)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(280)"/>
+        <line y1="-87" y2="-78.5" stroke="#7FA8BF" stroke-opacity="0.55" stroke-width="1.2" transform="rotate(285)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(290)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(295)"/>
+        <line y1="-87" y2="-78.5" stroke="#7FA8BF" stroke-opacity="0.55" stroke-width="1.2" transform="rotate(300)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(305)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(310)"/>
+        <line y1="-87" y2="-78.5" stroke="#7FA8BF" stroke-opacity="0.55" stroke-width="1.2" transform="rotate(315)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(320)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(325)"/>
+        <line y1="-87" y2="-78.5" stroke="#7FA8BF" stroke-opacity="0.55" stroke-width="1.2" transform="rotate(330)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(335)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(340)"/>
+        <line y1="-87" y2="-78.5" stroke="#7FA8BF" stroke-opacity="0.55" stroke-width="1.2" transform="rotate(345)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(350)"/>
+        <line y1="-87" y2="-83" stroke="#7FA8BF" stroke-opacity="0.3" stroke-width="0.7" transform="rotate(355)"/></g>
+
+        <!-- HUD dashed arcs: the only fast-ish element -->
+        <g class="hud">
+          <path d="M 92 0 A 92 92 0 0 1 -70.476 59.136" fill="none" stroke="#38D2FF" stroke-opacity=".40" stroke-width=".9" stroke-dasharray="14 6"/>
+          <path d="M -88.865 23.811 A 92 92 0 0 1 -23.811 -88.865" fill="none" stroke="#38D2FF" stroke-opacity=".30" stroke-width=".7" stroke-dasharray="3 5"/>
+          <path d="M 15.976 -90.602 A 92 92 0 0 1 88.865 -23.811" fill="none" stroke="#38D2FF" stroke-opacity=".45" stroke-width="1.1" stroke-dasharray="26 4 6 4"/>
+        </g>
+
+        <circle r="57" fill="none" stroke="#4E6272" stroke-width="2.5"/>
+
+        <!-- triangle: structural signature, never rotates -->
+        <path class="triglow" d="M 6.062 -41.5 L 38.971 15.5 Q 45.033 26 32.909 26 L -32.909 26 Q -45.033 26 -38.971 15.5 L -6.062 -41.5 Q 0 -52 6.062 -41.5 Z" fill="none" stroke="#7FE9FF" stroke-width="8" stroke-linejoin="round" opacity=".16"/>
+        <path d="M 6.062 -41.5 L 38.971 15.5 Q 45.033 26 32.909 26 L -32.909 26 Q -45.033 26 -38.971 15.5 L -6.062 -41.5 Q 0 -52 6.062 -41.5 Z" fill="none" stroke="url(#triGrad)" stroke-width="3.2" stroke-linejoin="round"/>
+
+        <g class="ring46"><circle r="46" fill="none" stroke="#38D2FF" stroke-opacity=".25" stroke-width="1" stroke-dasharray="2 10"/></g>
+
+        <!-- core stack -->
+        <circle r="34" fill="none" stroke="#101A22" stroke-width="3"/>
+        <circle r="30" fill="url(#coreBody)"/>
+        <circle r="30" fill="url(#coreVignette)"/>
+        <circle class="nucleus" r="9" fill="url(#coreHot)"/>
+        <ellipse cx="0" cy="-11" rx="17" ry="7" fill="url(#caustic)" opacity=".2"/>
+
+        <path d="M -76.115 -27.704 A 81 81 0 0 1 -14.066 -79.769" fill="none" stroke="#FFFFFF" stroke-opacity=".14" stroke-width="4" stroke-linecap="round"/>
+        <circle class="h1b" r="48" fill="url(#glowA)" opacity=".5"/>
       </g>
-
-      <!-- marcações HUD -->
-      <g class="spinB">
-        <circle r="86" fill="none" stroke="#E62429" stroke-opacity=".55" stroke-width="2" stroke-dasharray="30 16" stroke-linecap="round"/>
-        <path d="M0 -104 L6 -94 L-6 -94 Z" fill="#FFB300" opacity=".8"/>
-      </g>
-
-      <circle r="74" fill="none" stroke="#3FD0FF" stroke-opacity=".3" stroke-width="1"/>
-
-      <!-- bobinas -->
-      <g class="spinC">
-        <rect class="coil" x="-4.5" y="-66" width="9" height="17" rx="3.5" fill="#FFB300"/>
-        <rect class="coil" x="-4.5" y="-66" width="9" height="17" rx="3.5" fill="#FFB300" transform="rotate(45)"  style="animation-delay:.14s"/>
-        <rect class="coil" x="-4.5" y="-66" width="9" height="17" rx="3.5" fill="#FFB300" transform="rotate(90)"  style="animation-delay:.28s"/>
-        <rect class="coil" x="-4.5" y="-66" width="9" height="17" rx="3.5" fill="#FFB300" transform="rotate(135)" style="animation-delay:.42s"/>
-        <rect class="coil" x="-4.5" y="-66" width="9" height="17" rx="3.5" fill="#FFB300" transform="rotate(180)" style="animation-delay:.56s"/>
-        <rect class="coil" x="-4.5" y="-66" width="9" height="17" rx="3.5" fill="#FFB300" transform="rotate(225)" style="animation-delay:.7s"/>
-        <rect class="coil" x="-4.5" y="-66" width="9" height="17" rx="3.5" fill="#FFB300" transform="rotate(270)" style="animation-delay:.84s"/>
-        <rect class="coil" x="-4.5" y="-66" width="9" height="17" rx="3.5" fill="#FFB300" transform="rotate(315)" style="animation-delay:.98s"/>
-      </g>
-
-      <!-- triângulo do reator (Mark L) -->
-      <g class="spinB">
-        <path d="M0 -44 L38.1 22 L-38.1 22 Z" fill="none" stroke="#3FD0FF" stroke-opacity=".75" stroke-width="2.4" stroke-linejoin="round"/>
-        <path d="M0 -44 L38.1 22 L-38.1 22 Z" fill="#3FD0FF" opacity=".08"/>
-      </g>
-
-      <circle r="31" fill="none" stroke="#9DEBFF" stroke-opacity=".5" stroke-width="1.2"/>
-
-      <!-- núcleo -->
-      <circle class="coreA" r="36" fill="#3FD0FF" opacity=".3" filter="url(#glow)"/>
-      <circle class="coreA" r="21" fill="url(#core)"/>
-      <circle class="coreA" r="9" fill="#FFFFFF" filter="url(#glowS)"/>
     </g>
 
-    <!-- ================= TELEMETRIA / NOME ================= -->
-    <g transform="translate(322,0)">
-      <rect class="r1" x="0" y="96" width="3" height="118" rx="1.5" fill="url(#rule)"/>
+    <g transform="translate(348,0)">
+      <rect class="r1" x="0" y="104" width="2.5" height="104" rx="1.25" fill="url(#rule)"/>
 
-      <g class="r1">
-        <text x="20" y="118" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace" font-size="13" letter-spacing="4.5" fill="#FFB300">STARK INDUSTRIES</text>
-        <text x="215" y="118" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace" font-size="13" letter-spacing="4.5" fill="#6E8299">/ JAVA DIVISION</text>
+      <text class="r1" x="20" y="120" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15.6" letter-spacing="4.2" fill="#38D2FF">BACKEND ENGINEERING</text>
+      <text class="r1" x="292" y="120" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15.6" letter-spacing="4.2" fill="#5E7285">/ JAVA</text>
+
+      <text class="r2" x="18" y="164" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="45" font-weight="700" letter-spacing=".6" fill="#E6EDF3">Kau&#227; Santana Jer&#244;nimo</text>
+
+      <g transform="translate(18,182)">
+        <rect class="grow" width="452" height="2" rx="1" fill="url(#rule)"/>
       </g>
 
-      <text class="r2" x="18" y="166" font-family="'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="37" font-weight="700" letter-spacing="1.2" fill="#F2F6FA">KAUÃ SANTANA JERÔNIMO</text>
+      <text class="r3" x="18" y="210" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="17.5" letter-spacing="1.2" fill="#8FA3B8">Java &#183; Spring Boot &#183; Microsservi&#231;os &#183; Docker</text>
 
-      <g transform="translate(18,184)">
-        <rect class="grow" x="0" y="0" width="470" height="2.5" rx="1.25" fill="url(#rule)"/>
-      </g>
-
-      <text class="r3" x="18" y="212" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace" font-size="14.5" letter-spacing="1.6" fill="#93A7BC">Backend Developer &#183; Spring &#183; Microsserviços</text>
-
-      <g class="r4" transform="translate(18,244)">
-        <circle class="dot" cx="5" cy="-4" r="4.5" fill="#42E08B"/>
-        <text x="18" y="0" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace" font-size="12.5" letter-spacing="2.2" fill="#42E08B">SISTEMAS ONLINE</text>
-        <text x="182" y="0" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace" font-size="12.5" letter-spacing="2.2" fill="#FFB300">REATOR ARC 100%</text>
-        <text x="372" y="0" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace" font-size="12.5" letter-spacing="2.2" fill="#E62429">MARK LXXXV</text>
+      <g class="r4" transform="translate(18,242)">
+        <circle class="dot" cx="5" cy="-4.5" r="4" fill="#4FE3B0"/>
+        <text x="18" y="0" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" letter-spacing="2" fill="#4FE3B0">DISPON&#205;VEL</text>
+        <text x="142" y="0" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" letter-spacing="2" fill="#7FA8BF">TDD &#183; DDD &#183; CLEAN CODE</text>
       </g>
     </g>
 
-    <!-- cantos HUD -->
-    <g class="brk" fill="none" stroke="#FFB300" stroke-width="2" stroke-linecap="round">
-      <path d="M18 54 V26 H54"/>
-      <path d="M982 54 V26 H946"/>
-      <path d="M18 266 V294 H54"/>
-      <path d="M982 266 V294 H946"/>
+    <g fill="none" stroke="#7FA8BF" stroke-opacity=".35" stroke-width="1.6" stroke-linecap="round">
+      <path d="M20 52 V24 H52"/>
+      <path d="M980 52 V24 H948"/>
+      <path d="M20 268 V296 H52"/>
+      <path d="M980 268 V296 H948"/>
     </g>
-    <rect x="1" y="1" width="998" height="318" rx="16" fill="none" stroke="#FFB300" stroke-opacity=".14" stroke-width="2"/>
+    <rect x="1" y="1" width="998" height="318" rx="16" fill="none" stroke="#233246" stroke-width="2"/>
   </g>
 </svg>
