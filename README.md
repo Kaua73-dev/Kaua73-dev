@@ -20,11 +20,8 @@
 ```java
 package dev.kaua.core.domain;
 
-/**
- * A regra de negócio não conhece framework, banco nem HTTP.
- * Se precisa de mock para ser testada, foi modelada errado.
- */
-public record Desenvolvedor(String nome, Nivel nivel, Set<Competencia> stack) {
+
+public record Desenvolvedor(String name, Nivel nivel, Set<Competencia> stack) {
 
     public Desenvolvedor {
         Objects.requireNonNull(nome, "nome é obrigatório");
@@ -40,6 +37,8 @@ public record Desenvolvedor(String nome, Nivel nivel, Set<Competencia> stack) {
         ampliada.add(nova);
         return new Desenvolvedor(nome, nivel, ampliada);
     }
+
+    // código porco, criado às 2am
 }
 ```
 
