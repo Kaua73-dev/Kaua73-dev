@@ -1,76 +1,24 @@
 <div align="center">
 
-# 👨‍💻 Kauã Santana Jerônimo
+<img src="https://github.com/user-attachments/assets/391a50b7-4c14-4ab4-b149-82e7e29eb68e" width="100%" alt="banner" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=800&color=38D2FF&center=true&vCenter=true&width=820&height=44&lines=Backend+Developer+%2F%2F+Java;Spring+Boot+%C2%B7+Microsservi%C3%A7os+%C2%B7+Docker;TDD%2C+DDD+e+Clean+Code+como+padr%C3%A3o%2C+n%C3%A3o+como+enfeite;Sistemas+que+n%C3%A3o+caem+%C3%A0s+tr%C3%AAs+da+manh%C3%A3" alt="Backend Developer // Java — Spring Boot, microsserviços, Docker. TDD, DDD e Clean Code como padrão, não como enfeite. Sistemas que não caem às três da manhã." />
-
-<img src="./assets/divider.svg" width="100%" alt="" />
-
-<img src="https://komarev.com/ghpvc/?username=Kaua73-dev&style=for-the-badge&color=38D2FF&labelColor=111823&label=VISITAS" alt="Visitas no perfil" />
-<img src="https://img.shields.io/github/followers/Kaua73-dev?style=for-the-badge&logo=github&label=SEGUIDORES&color=1B6F9E&labelColor=111823" alt="Seguidores" />
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=24&duration=3000&pause=1000&color=38D2FF&center=true&vCenter=true&width=700&height=50&lines=Kau%C3%A3+Santana+Jer%C3%B4nimo;Backend+%C2%B7+Java+%C2%B7+Spring+Boot+%C2%B7+Node.js;Sistemas+que+n%C3%A3o+caem+%C3%A0s+3h+da+manh%C3%A3" alt="Kauã Santana Jerônimo" />
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" alt="" />
+### Skills
 
-## `01` Inicialização
+> **Backend**  
+> backend em Java e Node.js  
+> Microservices  
+> Design Patterns · Clean Code  
+> TDD · DDD  
+> frontend: **não tem**
 
-```java
-package dev.kaua.core.domain;
+### arsenal
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,spring,maven,nodejs,prisma,docker,postgres,git,linux,idea&theme=dark" alt="Java, Spring, Maven, Node.js, Prisma, Docker, PostgreSQL, Git, Linux, IntelliJ" />
+</p>
 
-public record Desenvolvedor(String name, Nivel nivel, Set<Competencia> stack) {
-
-    public Desenvolvedor {
-        Objects.requireNonNull(nome, "nome é obrigatório");
-        stack = Set.copyOf(stack);
-    }
-
-    public boolean atende(Demanda demanda) {
-        return stack.containsAll(demanda.requisitos());
-    }
-
-    public Desenvolvedor aprende(Competencia nova) {
-        var ampliada = new HashSet<>(stack);
-        ampliada.add(nova);
-        return new Desenvolvedor(nome, nivel, ampliada);
-    }
-
-    // código porco, criado às 2am
-}
-```
-
-Backend em Java, faço sistema que não quebra de madrugada. 
-*Não me chame para codar em php.*
-*Não me chame para fazer frontend.*
-
-<img src="./assets/divider.svg" width="100%" alt="" />
-
-## `02` Stack
-
-<div align="center">
-
-<img src="./assets/stack.svg" alt="Stack técnica" width="100%" />
-
-<br><br>
-
-<img src="https://skillicons.dev/icons?i=java,spring,maven,hibernate,nodejs,express,postgres,mysql,mongodb,redis,docker,git,github,linux,postman,idea&theme=dark&perline=8" alt="Ferramentas" />
-
-</div>
-
-<div align="center">
-
-<br><br>
-
-<a href="https://www.linkedin.com/in/kauadevv/">
-  <img src="https://img.shields.io/badge/LinkedIn-111823?style=for-the-badge&logo=linkedin&logoColor=38D2FF" alt="LinkedIn" />
-</a>
-<a href="mailto:kaua.santanaj@gmail.com">
-  <img src="https://img.shields.io/badge/Email-111823?style=for-the-badge&logo=gmail&logoColor=38D2FF" alt="Email" />
-</a>
-<a href="https://github.com/Kaua73-dev">
-  <img src="https://img.shields.io/badge/GitHub-111823?style=for-the-badge&logo=github&logoColor=38D2FF" alt="GitHub" />
-</a>
-
-<br><br>
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:38D2FF&height=110&section=footer" width="100%" alt="" />
