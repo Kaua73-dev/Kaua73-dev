@@ -2,7 +2,7 @@
 
 <img src="https://github.com/user-attachments/assets/391a50b7-4c14-4ab4-b149-82e7e29eb68e" width="100%" alt="banner" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=24&duration=3000&pause=1000&color=38D2FF&center=true&vCenter=true&width=700&height=50&lines=Kau%C3%A3+Santana+Jer%C3%B4nimo;Backend+%C2%B7+Java+%C2%B7+Spring+Boot+%C2%B7+Node.js;Sistemas+que+n%C3%A3o+caem+%C3%A0s+3h+da+manh%C3%A3" alt="Kauã Santana Jerônimo" />
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=24&duration=3000&pause=1000&color=38D2FF&center=true&vCenter=true&width=700&height=50&lines=Kau%C3%A3+Santana+Jer%C3%B4nimo;Backend+%C2%B7+Java+%C2%B7+Spring+Boot+%C2%B7+Node.js;" alt="Kauã Santana Jerônimo" />
 
 </div>
 
